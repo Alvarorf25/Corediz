@@ -1,0 +1,19 @@
+.shopCart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  img {
+    margin-right: 8px;
+  }
+
+  div {
+    background: red;
+    width: 18px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 4px 0;
+    font-size: 10px;
+    color: white;
+  }
+}

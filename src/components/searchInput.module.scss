@@ -1,0 +1,19 @@
+.search_input {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+  & input {
+    border: none;
+    min-width: 180px;
+    flex: 1;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  img {
+    margin-left: 8px;
+    width: 16px;
+  }
+}
